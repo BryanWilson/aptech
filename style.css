@@ -40,3 +40,13 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btn-aptech:active{
+    color: 38C0C4;
+}
+btn-aptech:hover{
+background-color: 38C0C4;
+}
+btn-aptech:focus{
+background-color: 38C0C4;
+}
