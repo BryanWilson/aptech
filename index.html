@@ -17,37 +17,61 @@
 
 </head>
 
+
+
+
+<!--TODO: HIDE PARALAX SCROLLING ON MOBILE-->
+<!--TODO: MAKE IMAGE FIRST IN MOBILE VIEW-->
+<!--TODO:ADD SOCIAL MEDIA LINKS FROM YOUR SITE AND CONNECT THEM-->
+<!--TODO:LINK SUBIT TICKET LINKS TO ZENDESK-->
+
+
+
 <body>
-   
- 
-        <nav class="navbar fixed-top navbar-expand-sm bg-light">
-         <div class="container">   
 
-            <a class="navbar-brand" href="#">
-                <img src="images/aptech logo.png" width="30" height="30" alt=""> Ap-Tech
-            </a>
+<div class="container">
 
-          
-                <div class="navbar" id="navbarText">
-                    <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Contact</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Submit Ticket</a>
-                        </li>
-                    </ul>
+<nav class="navbar navbar-expand-sm sticky-top bg-light navbar-light">
+        <!-- Brand -->
+        <a class="navbar-brand" href="#section1">
+            <img src="images/aptech logo.png" width="50" height="50" alt="">
+        </a>
+        <a class="navbar-brand" href="#">Ap-Tech</a>
 
-                </div>
-           
-            </div>
-        </nav>
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+
+            <ul class="navbar-nav">
+                <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#section1">Home</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#section2">Contact</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#section3">Clients</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#section4">Zendesk</a>
+                </li>
+                <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
+                    <a class="nav-link" href="#section5">Submit a ticket</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+    </div>
+
+    
 
 
- <div class="parallaxTop"></div>
+    <div class="parallaxTop d-none d-md-block"></div>
 
 
     <div class="container">
@@ -63,15 +87,15 @@
                     Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo,
                 </p>
 
-                
-                    <button class="btn btn-large btn-info" type="button">
-                        Contact
-                    </button>
-                    <button class="btn btn-primary" type="button">
-                        Submit Ticket
-                    </button>
-                    
-                
+
+                <button class="btn-lg btn-info" type="button">
+                    Contact
+                </button>
+                <button class="btn-lg btn-dark" type="button">
+                    Submit Ticket
+                </button>
+
+
             </div>
             <div class="col-sm-6 my-auto">
                 <div class="carousel slide" id="carousel-162226">
@@ -91,7 +115,7 @@
                                     First Thumbnail label
                                 </h4>
                                 <p>
-                                 
+
                                 </p>
                             </div>
                         </div>
@@ -102,7 +126,7 @@
                                     Second Thumbnail label
                                 </h4>
                                 <p>
-                                    
+
                                 </p>
                             </div>
                         </div>
@@ -113,7 +137,7 @@
                                     Third Thumbnail label
                                 </h4>
                                 <p>
-                                  
+
                                 </p>
                             </div>
                         </div>
@@ -121,13 +145,13 @@
                 </div>
             </div>
         </div>
-        </div>
-        
-        
-       
-        
-        
-        <div class="container">
+    </div>
+
+
+
+
+
+    <div class="container">
 
         <div class="row mt-5 mb-5">
             <div class="col-md-4">
@@ -158,12 +182,12 @@
                 </p>
             </div>
         </div>
-        </div>
-        
-         <div class="parallaxMid"></div>
-        
-        <div class="container">
-        <div class="row mt-5 mb-5" >
+    </div>
+
+    <div class="parallaxMid d-none d-md-block"></div>
+
+    <div class="container">
+        <div class="row mt-5 mb-5">
             <div class="col-md-4">
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action active" href="#">Home</a>
@@ -215,9 +239,9 @@
                 </dl>
             </div>
         </div>
-        </div>
-        
-        <div class="container">
+    </div>
+
+    <div class="container">
         <div class="row">
             <div class="col-md-3">
                 <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
