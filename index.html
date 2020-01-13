@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -15,6 +16,14 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Glyph Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!--Animate On Scroll Library-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Fave Icon-->
+
 
 </head>
 
@@ -35,39 +44,41 @@
 
     <div class="container">
 
-        <nav class="navbar navbar-expand-sm sticky-top bg-light navbar-light">
-            <!-- Brand -->
-            <a class="navbar-brand" href="bryanwilson.github.io/aptech/">
-                <img src="images/aptech logo.png" width="50" height="50" alt="">
-            </a>
-            <a class="navbar-brand" href="bryanwilson.github.io/aptech/">Ap-Tech</a>
+        <nav class="navbar fixed-top navbar-expand-md bg-light navbar-light">
+            <!--This container aligns the nav bar elements-->
+            <div class="container">
 
-            <!-- Toggler/collapsibe Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+                <!-- Brand -->
+                <a class="navbar-brand" href="index.html">
+                    <img src="images/aptech logo.png" width="50" height="50" alt="">
+                </a>
+                <a class="navbar-brand" href="index.html">Ap-Tech</a>
 
-            <!-- Navbar links -->
-            <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-                <ul class="navbar-nav">
-                    <li class="nav-item active" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link" href="bryanwilson.github.io/aptech/">Home</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link" href="#section2">Contact</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link" href="#section3">Clients</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link" href="https://www.ap-tech.zendesk.com/hc/en-us">Zendesk</a>
-                    </li>
-                    <li class="nav-item" data-toggle="collapse" data-target=".navbar-collapse.show">
-                        <a class="nav-link" href="https://www.w3schools.com">Support</a>
-                    </li>
-                </ul>
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+
+                    <ul class="navbar-nav">
+                        <li class="nav-item active" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="#section2">Contact</a>
+                        </li>
+                        <li class="nav-item" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="https://ap-tech.zendesk.com/">Zendesk</a>
+                        </li>
+                        <li class="nav-item" data-target=".navbar-collapse.show">
+                            <a class="nav-link" href="https://ap-tech.zendesk.com/hc/en-us/requests/new">Support</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
+
         </nav>
 
     </div>
@@ -75,7 +86,7 @@
 
 
 
-    <div class="parallaxTop d-none d-md-block"><a href="https://www.w3schools.com">Visit W3Schools.com!</a></div>
+    <div class="parallaxTop d-none d-md-block"></div>
 
 
     <div class="container">
@@ -85,8 +96,8 @@
         <div class="row justify-content-center mt-5 flex-sm-row-reverse">
 
             <div class="col-sm-6 my-auto">
-               <img class="responsive d-block w-200 h-200" alt="Carousel Bootstrap First" src="images/1.jpg">
-<!--
+
+
                 <div class="carousel slide" id="carousel-162226">
                     <ol class="carousel-indicators">
                         <li class="active" data-target="#carousel-162226" data-slide-to="0">
@@ -132,7 +143,7 @@
                         </div>
                     </div> <a class="carousel-control-prev" href="#carousel-162226" data-slide="prev"><span class="carousel-control-prev-icon"></span> <span class="sr-only">Previous</span></a> <a class="carousel-control-next" href="#carousel-162226" data-slide="next"><span class="carousel-control-next-icon"></span> <span class="sr-only">Next</span></a>
                 </div>
--->
+
             </div>
 
             <div class="col-sm-6 my-auto">
@@ -144,12 +155,9 @@
                 </p>
 
 
-                <button class="btn-lg btn-info" type="button">
-                    Contact
-                </button>
-                <button class="btn-lg btn-dark" type="button">
-                    Submit Ticket
-                </button>
+                <a href="#link" class="btn-lg btn-info mr-1 getSupportBtn" role="button">Contact</a>
+
+                <a href="https://ap-tech.zendesk.com/hc/en-us/requests/new" class="btn-lg btn-dark getSupportBtn" role="button">Get Support</a>
 
 
             </div>
@@ -202,25 +210,11 @@
     <div class="container">
         <div class="row mt-5">
             <div class="col-md-4">
-                <div class="list-group">
-                    <a class="list-group-item list-group-item-action active" href="#">Home</a>
-                    <div class="list-group-item">
-                        List header
-                    </div>
-                    <div class="list-group-item">
-                        <h4 class="list-group-item-heading">
-                            List group item heading
-                        </h4>
-                        <p class="list-group-item-text">
-                            ...
-                        </p>
-                    </div>
-                    <div class="list-group-item justify-content-between">
-                        Help <span class="badge badge-secondary badge-pill">14</span>
-                    </div> <a class="list-group-item list-group-item-action active justify-content-between" href="#">Home <span class="badge badge-light badge-pill">14</span></a>
-                </div>
+                <iframe width="640px" height="480px" src="https://forms.office.com/Pages/ResponsePage.aspx?id=jLZNznsvfESP_J6C555Axc4jm2ZeXZ5Ku4LRP3sa7U5URVYxSFZEUDIzRE9QWlJPV0hFSks1MDJCUy4u&embed=true" frameborder="0" marginwidth="0" marginheight="0" style="border: none; max-width:100%; max-height:100vh" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen> </iframe>
             </div>
             <div class="col-md-8">
+
+
                 <dl>
                     <dt>
                         Description lists
@@ -254,100 +248,140 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="mt-5"></div>
-        <div class="row">
+
+    <div class="mt-5"></div>
+    <!-- Footer -->
+    <div class="page-footer">
+
+        <footer class="page-footer bg-dark font-small text-light">
+            <div class="parallax d-none d-md-block">
+
+            </div>
 
 
-            <div class="col-md-3">
-                <img alt="Bootstrap Image Preview" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg">
+            <div class="container-fluid">
+
+                <!-- Grid row-->
+
+                <div class="row py-4 d-flex align-items-center bg-info">
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
+                        <h6 class="mb-0">Get connected with us on social networks!</h6>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+
+                    <div class="col-md-6 col-lg-7 text-center text-md-right">
+
+                        <!-- Facebook -->
+                        <a class="fb-ic" href="https://www.facebook.com/aptechnology/">
+                            <i class="fab fa-facebook-f white-text mr-4"> </i>
+                        </a>
+                        <!-- Twitter -->
+                        <a class="tw-ic">
+                            <i class="fab fa-twitter white-text mr-4"> </i>
+                        </a>
+
+                        <!--Linkedin -->
+                        <a class="li-ic">
+                            <i class="fab fa-linkedin-in white-text mr-4"> </i>
+                        </a>
+                        <!--Instagram-->
+                        <a class="ins-ic">
+                            <i class="fab fa-instagram white-text"> </i>
+                        </a>
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row-->
+
             </div>
-            <div class="col-md-3">
-                <ul>
-                    <li class="list-item">
-                        Lorem ipsum dolor sit amet
-                    </li>
-                    <li class="list-item">
-                        Consectetur adipiscing elit
-                    </li>
-                    <li class="list-item">
-                        Integer molestie lorem at massa
-                    </li>
-                    <li class="list-item">
-                        Facilisis in pretium nisl aliquet
-                    </li>
-                    <li class="list-item">
-                        Nulla volutpat aliquam velit
-                    </li>
-                    <li class="list-item">
-                        Faucibus porta lacus fringilla vel
-                    </li>
-                    <li class="list-item">
-                        Aenean sit amet erat nunc
-                    </li>
-                    <li class="list-item">
-                        Eget porttitor lorem
-                    </li>
-                </ul>
+
+            <!-- Start of ap-tech Zendesk Widget script -->
+            <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=d4f50b50-b97a-48cb-9208-ce9fb7998ef0"> </script>
+            <!-- End of ap-tech Zendesk Widget script -->
+
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left mt-3">
+
+                <!-- Grid row -->
+                <div class="row mt-3">
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+
+                        <!-- Content -->
+                        <h6 class="text-uppercase font-weight-bold">Ap-Tech | Tech solutions </h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p> Lorem ipsum dolor sit amet,
+                            consectetur
+                            adipisicing elit.</p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Navigation</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <a href="index.html">Home</a>
+                        </p>
+                        <p>
+                            <a href="#section2">Contact</a>
+                        </p>
+                        <p>
+                            <a href="https://ap-tech.zendesk.com/">Zendesk</a>
+                        </p>
+                        <p>
+                            <a href="https://ap-tech.zendesk.com/hc/en-us/requests/new">Support</a>
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+
+                        <!-- Links -->
+                        <h6 class="text-uppercase font-weight-bold">Contact</h6>
+                        <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
+                        <p>
+                            <i class="fas fa-home mr-3"></i> Chicago, IL 60611, US</p>
+                        <p>
+                            <i class="fas fa-envelope mr-3"></i> support@ap-tech.net</p>
+                        <p>
+                            <i class="fas fa-phone mr-3"></i> + 1 xxx xxx xxxx
+
+
+                    </div>
+                    <!-- Grid column -->
+
+                </div>
+                <!-- Grid row -->
+
             </div>
-            <div class="col-md-3">
-                <ol>
-                    <li class="list-item">
-                        Lorem ipsum dolor sit amet
-                    </li>
-                    <li class="list-item">
-                        Consectetur adipiscing elit
-                    </li>
-                    <li class="list-item">
-                        Integer molestie lorem at massa
-                    </li>
-                    <li class="list-item">
-                        Facilisis in pretium nisl aliquet
-                    </li>
-                    <li class="list-item">
-                        Nulla volutpat aliquam velit
-                    </li>
-                    <li class="list-item">
-                        Faucibus porta lacus fringilla vel
-                    </li>
-                    <li class="list-item">
-                        Aenean sit amet erat nunc
-                    </li>
-                    <li class="list-item">
-                        Eget porttitor lorem
-                    </li>
-                </ol>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+            <div class="footer-copyright text-center py-3">© 2019 Copyright:
+                <a href="">Ap-Tech.com</a>
             </div>
-            <div class="col-md-3">
-                <ol>
-                    <li class="list-item">
-                        Lorem ipsum dolor sit amet
-                    </li>
-                    <li class="list-item">
-                        Consectetur adipiscing elit
-                    </li>
-                    <li class="list-item">
-                        Integer molestie lorem at massa
-                    </li>
-                    <li class="list-item">
-                        Facilisis in pretium nisl aliquet
-                    </li>
-                    <li class="list-item">
-                        Nulla volutpat aliquam velit
-                    </li>
-                    <li class="list-item">
-                        Faucibus porta lacus fringilla vel
-                    </li>
-                    <li class="list-item">
-                        Aenean sit amet erat nunc
-                    </li>
-                    <li class="list-item">
-                        Eget porttitor lorem
-                    </li>
-                </ol>
-            </div>
-        </div>
+            <!-- Copyright -->
+
+        </footer>
+        <!-- Footer -->
     </div>
+
 
     <script src="js/jquery.min.js"></script>
     <script src="js/bootstrap.min.js"></script>

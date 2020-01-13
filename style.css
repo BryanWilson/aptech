@@ -1,6 +1,4 @@
-body {
-    
-}
+body {}
 
 /*
 .row
@@ -49,3 +47,8 @@ body {
     background-size: cover;
 }
 
+.getSupportBtn {
+
+    display: inline-block;
+
+}
