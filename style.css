@@ -20,6 +20,27 @@ body {}
     height: auto;
 }
 
+
+.navbar ul li a:hover {
+
+    color: orange !important;
+}
+
+.navbar a:hover {
+
+    color: orange !important;
+}
+
+a.text-info:hover {
+
+    color: orange !important;
+}
+
+a.social-media-link:hover {
+
+    color: orange !important;
+}
+
 .parallaxTop {
     /* The image used */
     background-image: url("images/Cubes.jpg");
