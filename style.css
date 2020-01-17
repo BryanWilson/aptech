@@ -44,13 +44,39 @@ a.text-info:hover {
      !important
 }
 
-a.social-media-link:hover {
+a.social-media-link-fb:hover {
+
+    color: #4267B2 !important;
+    text-decoration: none;
+     !important;
+
+}
+
+a.social-media-link-tw:hover {
+
+    color: #71C9F8 !important;
+    text-decoration: none;
+     !important;
+
+}
+
+a.social-media-link-li:hover {
+
+    color: #0073B0 !important;
+    text-decoration: none;
+     !important;
+
+}
+
+a.social-media-link-ig:hover {
 
     color: #FFDB6A !important;
     text-decoration: none;
      !important;
 
 }
+
+
 
 .parallaxTop {
     /* The image used */
