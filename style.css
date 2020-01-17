@@ -151,7 +151,10 @@ blockBtn {
 
 
 /*prevents the network managment label from going to new line on medium sized viewports*/
+
+/*
 .noWrap {
     
      white-space: nowrap;
 }
+*/
