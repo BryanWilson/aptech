@@ -23,22 +23,33 @@ body {}
 
 .navbar ul li a:hover {
 
-    color: orange !important;
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important;
+
 }
 
 .navbar a:hover {
 
-    color: orange !important;
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important;
+
 }
 
 a.text-info:hover {
 
-    color: orange !important;
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important
 }
 
 a.social-media-link:hover {
 
-    color: orange !important;
+    color: #FFDB6A !important;
+    text-decoration: none;
+     !important;
+
 }
 
 .parallaxTop {
