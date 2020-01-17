@@ -76,6 +76,18 @@ a.social-media-link-ig:hover {
 
 }
 
+a.blockBtn:hover {
+
+    text-decoration: none;
+
+}
+
+blockBtn {
+
+    display: inline-block;
+    
+
+}
 
 
 .parallaxTop {
@@ -129,11 +141,7 @@ a.social-media-link-ig:hover {
     background-size: cover;
 }
 
-.blockBtn {
 
-    display: inline-block;
-
-}
 
 .iconSize {
 
