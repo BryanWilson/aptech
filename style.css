@@ -112,17 +112,11 @@ blockBtn {
     background-image: url("images/cubes.jpg");
     min-height: 50vh;
     color: #fff;
-    line-height: ;
     text-align: center;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.about-me  {
-/*    fjdsaf*/
-    
 }
 
 .carousel-caption {
