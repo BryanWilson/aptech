@@ -93,7 +93,7 @@ blockBtn {
 .parallaxTop {
     /* The image used */
     background-image: url("images/Cubes.jpg");
-    width: ;
+    
 
     /* Set a specific height */
     min-height: 20vh;
