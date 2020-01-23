@@ -123,6 +123,19 @@ a.blockBtn:hover {
     background-size: cover;
 }
 
+.parallaxAboutSectionMobile {
+    /* The image used */
+    background-color: #38C0C4;
+    color: #fff;
+    /* Set a specific height */
+    min-height: 20vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 
 
 .carousel-caption {
