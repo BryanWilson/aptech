@@ -98,13 +98,13 @@ a.blockBtn:hover {
 }
 
 
-.parallaxTop {
+.parallax-aptech {
     /* The image used */
     background-image: url("images/Cubes.jpg");
 
 
     /* Set a specific height */
-    min-height: 20vh;
+    min-height: 25vh;
     min-width: 1vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -121,7 +121,7 @@ a.blockBtn:hover {
     background-image: linear-gradient(-20deg, rgb(0, 0, 0, 1), rgb(4, 190, 254, 0.5)), url("images/Cubes.jpg");
     color: #fff;
     /* Set a specific height */
-    min-height: 20vh;
+    min-height: 100vh;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -144,7 +144,20 @@ a.blockBtn:hover {
     background-size: cover;
 }
 
+.parallax-tech {
+    /* The image used */
+   background-image: linear-gradient(-20deg, rgb(0, 0, 0, 1), rgb(4, 190, 254, 0.5)), url("images/Servers.jpg");
+    color: #fff;
 
+    /* Set a specific height */
+    min-height: 50vh;
+    min-width: 1vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
 .carousel-caption {
     top: 0;
@@ -169,7 +182,7 @@ a.blockBtn:hover {
 
 .Services {
     
-    height
+    min-height: 100vh;
     
     
 }
