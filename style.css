@@ -121,7 +121,7 @@ a.blockBtn:hover {
     background-image: linear-gradient(-20deg, rgb(0, 0, 0, 1), rgb(4, 190, 254, 0.5)), url("images/Cubes.jpg");
     color: #fff;
     /* Set a specific height */
-    min-height: 100vh;
+    /*    min-height: 100vh;*/
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
