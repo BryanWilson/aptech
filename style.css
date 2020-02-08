@@ -76,6 +76,18 @@ a.social-media-link-ig:hover {
 
 }
 
+/*Disables Services anchor auto coloring blue*/
+a.services {
+    color: inherit;
+    text-decoration: none;
+}
+
+.Service-Div:hover {
+    background-color: #FFDB6A;
+    color: #FFB519;
+
+}
+
 a.blockBtn:hover {
 
     text-decoration: none;
