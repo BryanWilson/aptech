@@ -112,7 +112,6 @@ a.blockBtn:hover {
     display: block;
 }
 
-
 .parallax-aptech {
     /* The image used */
     background-image: url("images/Cubes.jpg");
@@ -265,13 +264,11 @@ a.blockBtn:hover {
 }
 
 
-/*prevents the network managment label from going to new line on medium sized viewports*/
+/*prevents client portal nav item from wrapping to new line*/
 
-/*
 .noWrap {
     
      white-space: nowrap;
 }
-*/
 
 
