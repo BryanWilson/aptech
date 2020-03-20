@@ -36,6 +36,8 @@
 <!--TODO:FILL LOREL IPSUM WITH REAL CONTENT FROM PAST WEBSITE-->
 <!--MAKE SERVICES TOGLLES MULTI COLLAPSE-->
 <!--TODO: COLLAPSE NAVBAR WHEN SELECTING MOBILE VIEW-->
+<!--TODO: BRING SELECTED SERVICE DIV IN FOCUS-->
+<!--FIX: FIX CONTACT NAV LINK-->
 <!--COMMENT AND REFACTOR CODE-->
 
 <body data-spy="scroll" data-target=".navbar" data-offset="0">
@@ -61,7 +63,7 @@
                 </button>
 
                 <!-- Navbar links -->
-                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar" data-aos="fade-right">
 
                     <ul class="navbar-nav">
                         <li class="nav-item active" data-target=".navbar-collapse.show">
@@ -391,33 +393,36 @@
                                 <h1 class="text-center mb-5">Services</h1>
                             </div>
 
-                            <!--EXCUTIVE SERVICES TOGGLE SECTION-->
-                            <div class="col-sm-12 collapse" id="Executive-Services">
-                                <div class="card border-primary mb-5 shadow">
-                                    <div class="card-header">
-                                        <h5>Our Executive Services</h5>
+
+
+                            <div id="accordion">
+                                <!--EXCUTIVE SERVICES TOGGLE SECTION-->
+                                <div class="col-sm-12 collapse show Executive-Services" id="Executive-Services" data-parent="#accordion">
+                                    <div class="card border-primary mb-5 shadow">
+                                        <div class="card-header">
+                                            <h5>Our Executive Services</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text"> AP Tech client executives can outline your IT strategy and success. We can offer unique strategic service value, such as the Importance of leveraging systems, Features, and functions in order to solve a specific business problem and help meet a business objective. We also provide Business Continuity and Business Process Support.</p>
+                                        </div>
                                     </div>
-                                    <div class="card-body">
-                                        <p class="card-text"> AP Tech client executives can outline your IT strategy and success. We can offer unique strategic service value, such as the Importance of leveraging systems, Features, and functions in order to solve a specific business problem and help meet a business objective. We also provide Business Continuity and Business Process Support.</p>
-                                    </div>
+
+
                                 </div>
 
 
-                            </div>
-
-
-                            <!--CREATIVE SERVICES TOGGLE SECTION-->
-                            <div class="col-sm-12 collapse" id="Creative-Services">
-                                <div class="card border-primary mb-5 shadow">
-                                    <div class="card-header">
-                                        <h5>Our Creative Services</h5>
-                                    </div>
-                                    <div class="card-body">
-                                        <p class="card-text"> AP Tech has known for years that not everyone fits in the same box. There is no point in purchasing and implementing a solution for your organization that will stifle your creativity and stop your workflow. We have the expertise to implement custom solutions that fit your business process. Ask about our Virtual Team Vignette and Construction Site Communication</p>
+                                <!--CREATIVE SERVICES TOGGLE SECTION-->
+                                <div class="col-sm-12 collapse show Creative-Services" id="Creative-Services" data-parent="#accordion">
+                                    <div class="card border-primary mb-5 shadow">
+                                        <div class="card-header">
+                                            <h5>Our Creative Services</h5>
+                                        </div>
+                                        <div class="card-body">
+                                            <p class="card-text"> AP Tech has known for years that not everyone fits in the same box. There is no point in purchasing and implementing a solution for your organization that will stifle your creativity and stop your workflow. We have the expertise to implement custom solutions that fit your business process. Ask about our Virtual Team Vignette and Construction Site Communication</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-
 
                             <!--IT SYSTEMS & NETWORK MGMT TOGGLE SECTION-->
                             <div class="col-sm-12 collapse" id="IT-Systems-Network-Management">
@@ -460,7 +465,7 @@
 
                             <div class="row services-row mx-auto border-top border-primary shadow-lg rounded" data-aos="zoom-in-up">
                                 <!--Executive Services-->
-                                <div class="Service-Div col-12 col-sm p-5 border border-top-primary text-center" data-toggle="collapse" href="#Executive-Services" role="button" aria-expanded="false" aria-controls="Executive-Services">
+                                <div class="Service-Div col-12 col-sm p-5 border border-top-primary text-center" data-toggle="collapse" data-target="#Executive-Services" aria-expanded="true" aria-controls="Executive-Services">
                                     <a class="services">
                                         <h1><i class="fas fa-user-tie"></i></h1>
                                         <h5 class="align-middle">Executive Services</h5>
@@ -468,7 +473,7 @@
                                 </div>
 
                                 <!--Creative Services-->
-                                <div class="Service-Div col-12 col-sm p-5 border border-top-primary text-center" data-toggle="collapse" href="#Creative-Services" role="button" aria-expanded="false" aria-controls="Creative-Services">
+                                <div class="Service-Div col-12 col-sm p-5 border border-top-primary text-center" data-toggle="collapse" data-target="#Creative-Services" aria-expanded="true" aria-controls="Creative-Services">
                                     <a class="services">
                                         <h1><i class="fas fa-palette"></i></h1>
                                         <h5 class="align-middle">Creative Services</h5>
